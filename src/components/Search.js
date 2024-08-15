@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
@@ -16,7 +17,7 @@ const Search = ({ onHandleSearch }) => {
       <input
         type="text"
         name="search"
-        placeholder="search country"
+        placeholder="search user"
         value={search}
         onChange={handleChange}
       />
